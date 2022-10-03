@@ -3,6 +3,7 @@ body {
   background-image: url("image/bg.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  color: black;
 }
 
 header {
@@ -38,8 +39,7 @@ header {
     font-size: 13px; 
   }
   .topselec a:hover {
-    margin-top: 0;
-    border-top: 4px solid #1C6E8C;
+    margin-top: 4px;
     color: #FBFCFF;
 }
 
@@ -63,10 +63,26 @@ nav {
     font-size: 13px; 
   }
   nav a:hover {
-    margin-top: 0;
-    border-top: 4px solid #1C6E8C;
+    margin-top: 4px;
     color: #FBFCFF;
-}
+  }
+  nav button {
+  float: right;
+  margin-top: 4px;
+  margin-right: 4px;
+  color: #d0ccd0;
+  background-color: #274156;
+  text-align: center;
+  padding: 10px 20px; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 13px; 
+  }
+  nav button:hover {
+    margin-top: 6px;
+    border-top: 2px solid black;
+    color: #FBFCFF;
+  }
+ 
 
 .fnav {
   margin-left: 2%;
@@ -76,7 +92,14 @@ nav {
   margin-right: 2%;
 }
 
-#Activenav {
+#Activenav1 {
+  margin-top: 0;
+  margin-bottom: 1px;
+  border-top: 4px solid #1C6E8C;
+  color: #FBFCFF;
+}
+
+#Activenav2 {
   margin-top: 0;
   margin-bottom: 1px;
   border-top: 4px solid #1C6E8C;
@@ -106,7 +129,7 @@ main article{
   border-radius: 50%;
   box-sizing: border-box;
   background-color: black;
-  border: 5px solid #1C6E8C;
+  border: 5px solid #d0ccd0;
   filter: brightness(80%);
   height: 50%;
   width: 50%;
