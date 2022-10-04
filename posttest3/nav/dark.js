@@ -11,37 +11,37 @@ const d = document.getElementById("Dark");
 const l = document.getElementById("Light");
 
 function dark() {
-    if (bd.style.color = "black") {
-        bd.style.backgroundImage = "none";
-        bd.style.background = "#3a3b3c";
-        bd.style.color = "#3a3b3c";
-        nav.style.background = "black";
-        ts.style.background = "black"
-        hd.style.color = "black";
+    if (bd.style.color = "#3a3b3c") {
+        bd.style.backgroundImage = "url('../image/bg3.jpg')";
+        bd.style.color = "black";
+        nav.style.background = "#3a3b3c";
+        ts.style.background = "#3a3b3c"
+        hd.style.color = "#d0ccd0";
         an1.style.borderTop = "4px solid #d0ccd0"
         an2.style.borderTop = "4px solid #d0ccd0"
-        ft.style.background = "black";
         hr.style.display = "none";
         hr2.style.display = "none";
-        d.style.background = "black";
-        l.style.background = "black";
+        ft.style.background = "#3a3b3c";
+        ft.style.borderTop = "4px solid #d0ccd0"
+        d.style.background = "#3a3b3c";
+        l.style.background = "#3a3b3c";
         localStorage.setItem("dark", true);
     }
 }
 
 function light() {
-    if (bd.style.color = "3a3b3c") {
-        bd.style.background = "none";
-        bd.style.backgroundImage = 'url("../image/bg.jpg")';
-        bd.style.color = "black";
+    if (bd.style.color = "black") {
+        bd.style.backgroundImage = "url('../image/bg.jpg')";
+        bd.style.color = "#3a3b3c";
         nav.style.background = "#274156";
         ts.style.background = "#274156"
         hd.style.color = "#1C6E8C";
         an1.style.borderTop = "4px solid #1C6E8C"
         an2.style.borderTop = "4px solid #1C6E8C"
-        ft.style.background = "#274156";
         hr.style.display = "flex";
         hr2.style.display = "flex";
+        ft.style.background = "#274156";
+        ft.style.borderTop = "4px solid #FBFCFF"
         d.style.background = "#274156";
         l.style.background = "#274156";
         localStorage.clear();

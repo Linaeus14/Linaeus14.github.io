@@ -130,7 +130,7 @@ main article{
   box-sizing: border-box;
   background-color: black;
   border: 5px solid #d0ccd0;
-  filter: brightness(80%);
+  filter: brightness(60%);
   height: 50%;
   width: 50%;
 }
