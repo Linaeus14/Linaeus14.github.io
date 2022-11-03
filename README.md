@@ -1,4 +1,4 @@
 ## Pengumpulan Tugas Posttest Pemprograman Web
-> -Posttest1
-> -Posttest2
-> -Posttest3 
+>- Posttest1 - HTML
+>- Posttest2 - CSS
+>- Posttest3  - JS
